@@ -42,6 +42,30 @@ The path was:
 
 That final shape is the version we keep in the main pipeline.
 
+## Score Progression
+
+The public-score path that led to the final solution:
+
+| Submission file | Public score |
+|---|---:|
+| `preview_submission.csv` | `0.15` |
+| `full_submission_heuristic.csv` | `0.41` |
+| `submission.csv` | `0.48` |
+| `submission_graphrag_prompt_v2.csv` | `0.56` |
+| `submission_stable_hybrid.csv` | `0.63` |
+| `submission_graphrag.csv` | `0.65` |
+| `context_window1_smoke.csv` | `0.10` |
+| `submission_context_window1.csv` | `0.68` |
+| `submission.csv` | `0.80` |
+| `submission.csv` | `0.75` |
+| `submission.csv` | `0.76` |
+| `super_final.csv` | `0.90` |
+| `god.csv` | `0.95` |
+| `super_final.csv` | `0.98` |
+| `submission_fix_q49_20260328.csv` | `1.00` |
+
+The important takeaway is that the final jump did not come from one isolated model change. It came from tightening retrieval, then adding an evidence-aligned review layer that corrected exact-fact, compare, policy, and calculation failures while still keeping the LLM in the loop.
+
 ## Final Solution Shape
 
 The current system in [`fahmai_rag_jina.py`](fahmai_rag_jina.py) is:
