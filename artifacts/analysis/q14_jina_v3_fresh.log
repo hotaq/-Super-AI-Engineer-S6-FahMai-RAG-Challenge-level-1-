@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded 1 questions
+Loaded 118 documents
+Created 1238 chunks
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 5848.17it/s]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files: 100%|██████████| 8/8 [00:00<00:00, 73262.95it/s]
+Default prompt name is set to 'document'. This prompt will be applied to all `encode()` calls, except if `encode()` is called with `prompt` or `prompt_name` parameters.
+Loaded cached embeddings: data/_cache/jinaai_jina-embeddings-v5-text-small_retrieval_1238_cs512_co128_markdown_td0_353b97e69801.npy
+Embedding device: mps
+Chunk embedding matrix: (1238, 1024)
+Loading weights:   0%|          | 0/312 [00:00<?, ?it/s]Loading weights: 100%|██████████| 312/312 [00:00<00:00, 7281.17it/s]

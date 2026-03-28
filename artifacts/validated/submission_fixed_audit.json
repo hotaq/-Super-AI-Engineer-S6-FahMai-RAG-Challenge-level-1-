@@ -1,0 +1,2043 @@
+{
+  "input_submission": "submission_fixed.csv",
+  "cleaned_submission": "submission_fixed_clean.csv",
+  "manual_validations_count": 32,
+  "validated_rows_count": 100,
+  "review_rows_count": 0,
+  "manual_validation_ids": [
+    9,
+    14,
+    22,
+    31,
+    32,
+    41,
+    47,
+    49,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    65,
+    66,
+    76,
+    78,
+    82,
+    83,
+    84,
+    85,
+    88,
+    89,
+    90,
+    92,
+    97,
+    98
+  ],
+  "audit_rows": [
+    {
+      "id": 1,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 2,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 7 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 7,
+        "submission_3.csv": 7,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 7
+      }
+    },
+    {
+      "id": 3,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 4,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 5,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 6,
+      "final_answer": 8,
+      "submission_fixed_answer": 8,
+      "majority_answer": 8,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 8 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 8,
+        "submission_fixed.csv": 8,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 8,
+        "submission_3.csv": 8,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 7,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 8,
+        "submission_3.csv": 9,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 8,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 7,
+        "submission_3.csv": 4,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 9,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 4,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Rugged R1 has IP69K and MIL-STD-810H, but that does not make it suitable for deep diving, and water damage is not warranty-covered.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 10,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 7 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 7,
+        "submission_3.csv": 2,
+        "submission_final.csv": 7,
+        "submission_source_aware.csv": 7
+      }
+    },
+    {
+      "id": 11,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 4,
+        "submission_3.csv": 4,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 12,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 1,
+        "submission_3.csv": 1,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 13,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 3,
+        "submission_3.csv": 6,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 14,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 3,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "X9 Pro includes the 67W charger and USB-C cable in the box; the separate charger SKU does not include a cable.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 2,
+        "submission_3.csv": 1,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 15,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 7 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 9,
+        "submission_3.csv": 7,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 7
+      }
+    },
+    {
+      "id": 16,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 1,
+        "submission_3.csv": 1,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 17,
+      "final_answer": 8,
+      "submission_fixed_answer": 8,
+      "majority_answer": 8,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 8 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 8,
+        "submission_fixed.csv": 8,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 8,
+        "submission_3.csv": 8,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 18,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 19,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 20,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 7
+      }
+    },
+    {
+      "id": 21,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 3 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 22,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 8,
+      "majority_count": 3,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Screen damage is not covered by normal warranty; Care+ covers up to 2 repairs per year with 20% co-pay.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 8,
+        "submission_3.csv": 8,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 23,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 3 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 24,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 3 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 25,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 26,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 8,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 27,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 28,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 7 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 7,
+        "submission_3.csv": 7,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 7
+      }
+    },
+    {
+      "id": 29,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 4,
+        "submission_3.csv": 4,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 30,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 3 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 31,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Mega Sale return window is 7 days, not the normal policy window.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 4,
+        "submission_3.csv": 4,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 32,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 3,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Orders in the 'paid / preparing to ship' state can still be canceled through the app or website unless packing and tracking creation have already completed.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 2,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 33,
+      "final_answer": 8,
+      "submission_fixed_answer": 8,
+      "majority_answer": 8,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 8 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 8,
+        "submission_fixed.csv": 8,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 8,
+        "submission_3.csv": 8,
+        "submission_final.csv": 8,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 34,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 35,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 3 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 36,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 37,
+      "final_answer": 8,
+      "submission_fixed_answer": 8,
+      "majority_answer": 8,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 8 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 8,
+        "submission_fixed.csv": 8,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 8,
+        "submission_3.csv": 8,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 38,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 8,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 39,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 4,
+        "submission_3.csv": 4,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 40,
+      "final_answer": 8,
+      "submission_fixed_answer": 8,
+      "majority_answer": 8,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 8 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 8,
+        "submission_fixed.csv": 8,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 8,
+        "submission_3.csv": 8,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 41,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "FlexBook Detach does not include a keyboard; the keyboard is sold separately or in the DN-LT-018 bundle.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 7,
+        "submission_3.csv": 7,
+        "submission_final.csv": 7,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 42,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 43,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 4,
+        "submission_3.csv": 4,
+        "submission_final.csv": 8,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 44,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 1,
+        "submission_3.csv": 1,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 45,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 3 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 7,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 46,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 1,
+        "submission_3.csv": 1,
+        "submission_final.csv": 7,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 47,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "DaoNuea's 27-inch 4K product is All-in-One 27 at 34990 THB; ArcWave ProView 27 is not DaoNuea.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 2,
+        "submission_3.csv": 5,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 48,
+      "final_answer": 8,
+      "submission_fixed_answer": 8,
+      "majority_answer": 8,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 8 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 8,
+        "submission_fixed.csv": 8,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 8,
+        "submission_3.csv": 2,
+        "submission_final.csv": 8,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 49,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 2,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "The standard HeadOn 300 SKU lists Black, White, and Navy Blue. FahMai Blue belongs to the separate FahMai Edition SKU.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 6,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 50,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 51,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 7 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 7,
+        "submission_3.csv": 7,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 7
+      }
+    },
+    {
+      "id": 52,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 4,
+        "submission_3.csv": 4,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 53,
+      "final_answer": 9,
+      "submission_fixed_answer": 9,
+      "majority_answer": 9,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 9 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 9,
+        "submission_fixed.csv": 9,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 9,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 54,
+      "final_answer": 9,
+      "submission_fixed_answer": 9,
+      "majority_answer": 9,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "StormPhone X9 Pro Max page does not state country of manufacture.",
+      "votes": {
+        "submission.csv": 9,
+        "submission_fixed.csv": 9,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 9,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 55,
+      "final_answer": 9,
+      "submission_fixed_answer": 9,
+      "majority_answer": 9,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Store info has company details but no annual revenue figure.",
+      "votes": {
+        "submission.csv": 9,
+        "submission_fixed.csv": 9,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 9,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 56,
+      "final_answer": 9,
+      "submission_fixed_answer": 9,
+      "majority_answer": 9,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Knowledge base has AirBook 14 and 15, but no AirBook 13 entry.",
+      "votes": {
+        "submission.csv": 9,
+        "submission_fixed.csv": 9,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 10,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 57,
+      "final_answer": 9,
+      "submission_fixed_answer": 9,
+      "majority_answer": 9,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "X9 Pro page does not include screen-to-body ratio.",
+      "votes": {
+        "submission.csv": 9,
+        "submission_fixed.csv": 9,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 9,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 58,
+      "final_answer": 9,
+      "submission_fixed_answer": 9,
+      "majority_answer": 9,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Buds Z5 Pro page has no average user review score.",
+      "votes": {
+        "submission.csv": 9,
+        "submission_fixed.csv": 9,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 9,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 59,
+      "final_answer": 9,
+      "submission_fixed_answer": 9,
+      "majority_answer": 9,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "X9 Pro Max page does not list SAR value.",
+      "votes": {
+        "submission.csv": 9,
+        "submission_fixed.csv": 9,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 9,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 60,
+      "final_answer": 10,
+      "submission_fixed_answer": 10,
+      "majority_answer": 10,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Public holidays in 2569 are unrelated to FahMai.",
+      "votes": {
+        "submission.csv": 10,
+        "submission_fixed.csv": 10,
+        "fixed_512_128.csv": 10,
+        "submission_2.csv": 10,
+        "submission_3.csv": 10,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 10
+      }
+    },
+    {
+      "id": 61,
+      "final_answer": 10,
+      "submission_fixed_answer": 10,
+      "majority_answer": 10,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Bangkok-Chiang Mai airfare is unrelated to FahMai.",
+      "votes": {
+        "submission.csv": 10,
+        "submission_fixed.csv": 10,
+        "fixed_512_128.csv": 10,
+        "submission_2.csv": 10,
+        "submission_3.csv": 10,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 10
+      }
+    },
+    {
+      "id": 62,
+      "final_answer": 10,
+      "submission_fixed_answer": 10,
+      "majority_answer": 10,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Savings-account interest rate is unrelated to FahMai.",
+      "votes": {
+        "submission.csv": 10,
+        "submission_fixed.csv": 10,
+        "fixed_512_128.csv": 10,
+        "submission_2.csv": 10,
+        "submission_3.csv": 10,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 10
+      }
+    },
+    {
+      "id": 63,
+      "final_answer": 10,
+      "submission_fixed_answer": 10,
+      "majority_answer": 10,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Pad kra pao recipe is unrelated to FahMai.",
+      "votes": {
+        "submission.csv": 10,
+        "submission_fixed.csv": 10,
+        "fixed_512_128.csv": 10,
+        "submission_2.csv": 10,
+        "submission_3.csv": 10,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 10
+      }
+    },
+    {
+      "id": 64,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 65,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "X9 and X9 FE share the S9 chip; FE is cheaper because it loses OIS, loses ultrawide, and uses Polycarbonate instead of aluminum.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 66,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "NovaTech partner products have no on-site service; SlimBook 14 must be sent to a NovaTech service center.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 7,
+        "submission_3.csv": 7,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 67,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 68,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 1,
+        "submission_3.csv": 1,
+        "submission_final.csv": 7,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 69,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 7,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 70,
+      "final_answer": 8,
+      "submission_fixed_answer": 8,
+      "majority_answer": 8,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 8 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 8,
+        "submission_fixed.csv": 8,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 8,
+        "submission_3.csv": 8,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 8
+      }
+    },
+    {
+      "id": 71,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 4,
+        "submission_3.csv": 4,
+        "submission_final.csv": 8,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 72,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 7 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 7,
+        "submission_3.csv": 7,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 7
+      }
+    },
+    {
+      "id": 73,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 74,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 75,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 76,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 9,
+      "majority_count": 3,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Both G5 variants use SO-DIMM RAM; current G5 is DDR5 and 2024 is DDR4.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 1,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 77,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 78,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 4,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "StormBook G7 has on-site service only in year 1, while Mini PC M1, as a DaoNuea desktop, has on-site service for the full 3-year warranty.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 79,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 9,
+        "submission_3.csv": 1,
+        "submission_final.csv": 8,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 80,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 81,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 6,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 6 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 6,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 82,
+      "final_answer": 6,
+      "submission_fixed_answer": 6,
+      "majority_answer": 9,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "32990 + 12990 + 1890 = 47870.",
+      "votes": {
+        "submission.csv": 6,
+        "submission_fixed.csv": 6,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 9,
+        "submission_3.csv": 9,
+        "submission_final.csv": 9,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 83,
+      "final_answer": 4,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 3,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Gold: floor(32990/100)=329, then 329*1.5=493.5, round down to 493 points.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 5,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 84,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 2,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "8000 points = 4000 THB discount; 20% cap is 7998 THB, so 4000 THB is the max usable.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 2,
+        "submission_3.csv": 4,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 85,
+      "final_answer": 4,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 4,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Over-ear models under 5000 THB are HeadOn 300, HeadOn 300 FahMai Edition, GameStorm H1, and HeadOn 500.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 1,
+        "submission_3.csv": 1,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 86,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 1,
+        "submission_3.csv": 1,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 87,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 1,
+        "submission_3.csv": 9,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 88,
+      "final_answer": 3,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 2,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Only the two AirBook 14 variants satisfy fanless, <=1.2kg, and >15h battery life.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 8,
+        "submission_2.csv": 2,
+        "submission_3.csv": 4,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 89,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 4,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Only Watch S3 Pro fits ECG + NFC Pay + swim + <=10000 THB.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 5,
+        "submission_3.csv": 4,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 90,
+      "final_answer": 5,
+      "submission_fixed_answer": 1,
+      "majority_answer": 5,
+      "majority_count": 3,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Only HeadPro X1 has ANC + LDAC + at least 30h battery within the 13000 THB budget.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 6,
+        "submission_3.csv": 6,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 91,
+      "final_answer": 2,
+      "submission_fixed_answer": 2,
+      "majority_answer": 2,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 2 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 2,
+        "submission_fixed.csv": 2,
+        "fixed_512_128.csv": 2,
+        "submission_2.csv": 2,
+        "submission_3.csv": 2,
+        "submission_final.csv": 7,
+        "submission_source_aware.csv": 2
+      }
+    },
+    {
+      "id": 92,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 2,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Among wireless earbuds/headphones at or below 8000 THB, only Buds Z5 Pro has both ANC and LDAC.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 8,
+        "submission_final.csv": 2,
+        "submission_source_aware.csv": 6
+      }
+    },
+    {
+      "id": 93,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 5,
+        "submission_2.csv": 7,
+        "submission_3.csv": 5,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 94,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 6,
+      "num_runs": 7,
+      "confidence": 0.857,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 6/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 9,
+        "submission_3.csv": 4,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 95,
+      "final_answer": 1,
+      "submission_fixed_answer": 1,
+      "majority_answer": 1,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 1 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 1,
+        "submission_fixed.csv": 1,
+        "fixed_512_128.csv": 1,
+        "submission_2.csv": 4,
+        "submission_3.csv": 6,
+        "submission_final.csv": 1,
+        "submission_source_aware.csv": 1
+      }
+    },
+    {
+      "id": 96,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 5 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 9,
+        "submission_2.csv": 5,
+        "submission_3.csv": 5,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 5
+      }
+    },
+    {
+      "id": 97,
+      "final_answer": 7,
+      "submission_fixed_answer": 7,
+      "majority_answer": 7,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "ArcWave warranty excludes accidental damage, and partner brands cannot buy FahMai Care+.",
+      "votes": {
+        "submission.csv": 7,
+        "submission_fixed.csv": 7,
+        "fixed_512_128.csv": 7,
+        "submission_2.csv": 7,
+        "submission_3.csv": 7,
+        "submission_final.csv": 4,
+        "submission_source_aware.csv": 9
+      }
+    },
+    {
+      "id": 98,
+      "final_answer": 5,
+      "submission_fixed_answer": 5,
+      "majority_answer": 5,
+      "majority_count": 3,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "manual_kb_review",
+      "note": "Standard shipping is free over 500 THB; SoundBar Pro 500 adds 200 THB heavy-item fee plus 100 THB each for floors 4, 5, and 6 with no elevator.",
+      "votes": {
+        "submission.csv": 5,
+        "submission_fixed.csv": 5,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 2,
+        "submission_3.csv": 3,
+        "submission_final.csv": 5,
+        "submission_source_aware.csv": 3
+      }
+    },
+    {
+      "id": 99,
+      "final_answer": 4,
+      "submission_fixed_answer": 4,
+      "majority_answer": 4,
+      "majority_count": 5,
+      "num_runs": 7,
+      "confidence": 0.714,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 4 from 5/7 runs.",
+      "votes": {
+        "submission.csv": 4,
+        "submission_fixed.csv": 4,
+        "fixed_512_128.csv": 4,
+        "submission_2.csv": 4,
+        "submission_3.csv": 3,
+        "submission_final.csv": 6,
+        "submission_source_aware.csv": 4
+      }
+    },
+    {
+      "id": 100,
+      "final_answer": 3,
+      "submission_fixed_answer": 3,
+      "majority_answer": 3,
+      "majority_count": 7,
+      "num_runs": 7,
+      "confidence": 1.0,
+      "label_source": "submission_fixed",
+      "note": "Matches majority vote 3 from 7/7 runs.",
+      "votes": {
+        "submission.csv": 3,
+        "submission_fixed.csv": 3,
+        "fixed_512_128.csv": 3,
+        "submission_2.csv": 3,
+        "submission_3.csv": 3,
+        "submission_final.csv": 3,
+        "submission_source_aware.csv": 3
+      }
+    }
+  ]
+}
